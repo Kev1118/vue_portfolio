@@ -3,6 +3,6 @@ import vue from "@vitejs/plugin-vue";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/vue_portfolio",
+  // base: "/vue_portfolio", # FOR GITHUB PAGES ONLY
   plugins: [vue(), tailwindcss()],
 });
