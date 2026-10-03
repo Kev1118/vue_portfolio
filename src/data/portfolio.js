@@ -42,7 +42,7 @@ export const socials = [
   {
     name: "Facebook",
     icon: "facebook",
-    href: "https://www.facebook.com/16ThGoD/",
+    href: "https://www.facebook.com/kmora16/",
   },
 ];
 
