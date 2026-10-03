@@ -160,48 +160,96 @@ export const education = {
 // Project descriptions are brief on purpose – edit them to add more detail.
 export const projects = [
   {
-    title: "Human Resource Management System",
-    short: "HRMS",
+    title: "Human Resource Information System - Amkor Technology",
+    short: "HRIS",
     description:
-      "In-house HR platform for managing employee records and day-to-day HR administration.",
-    tags: ["PHP", "Laravel", "MySQL"],
-    href: "https://www.kevin-morales.com/pages/hrms.html",
+      "In-house HR platform for Amkor Philippines managing employee records, day-to-day HR administration and payroll processing.",
+    tags: [
+      "PHP",
+      "Laravel",
+      "Vue.js",
+      "PrimeVue",
+      "MS SQl Server",
+      "Tailwind CSS",
+      "Docker",
+    ],
   },
   {
-    title: "Internal Quality Management System",
+    title: "I - Workflow - Amkor Technology",
+    short: "WI",
+    description:
+      "In-house QA system for Amkor Malaysia, used for managing and tracking workflow processes in the QA department.",
+    tags: ["PHP", "CodeIgniter", "MS SQl Server", "Tailwind CSS", "Docker"],
+  },
+  {
+    title: "Contract Accounting Review Tool - Amkor Technology",
+    short: "CART",
+    description:
+      "In-house tool Amkor Arizona US, used for reviewing and managing contract accounting processes.",
+    tags: [
+      "PHP",
+      "Laravel",
+      "React Js",
+      "MS SQl Server",
+      "Tailwind CSS",
+      "PrimeReact",
+      "Docker",
+    ],
+  },
+  {
+    title: "Human Resource Management System - Fujitsu",
+    short: "HRMS",
+    description:
+      "In-house HR platform for managing employee records, day-to-day HR administration and payroll processing.",
+    tags: ["PHP", "bootstrap", "jQuery", "MySQL"],
+  },
+  {
+    title: "Internal Quality Management System - Fujitsu",
     short: "IQMS",
     description:
       "Internal system supporting quality management and document control processes.",
-    tags: ["PHP", "Laravel", "PostgreSQL"],
-    href: "https://www.kevin-morales.com/pages/iqms.html",
+    tags: ["PHP", "bootstrap", "jQuery", "PostgreSQL"],
   },
   {
-    title: "MIS Asset Monitoring",
+    title: "MIS Asset Monitoring - Fujitsu",
     short: "MIS",
     description:
       "Monitoring tool for tracking and managing company I.T. assets.",
-    tags: ["PHP", "MySQL", "JavaScript"],
-    href: "https://www.kevin-morales.com/pages/mis.html",
+    tags: ["PHP", "Laravel", "Vue.js", "MySQL", "Tailwind CSS"],
   },
   {
-    title: "Meeting Room Reservation",
+    title: "Meeting Room Reservation - Fujitsu",
     short: "MRR",
     description:
       "Booking system that lets employees reserve meeting rooms and avoid schedule conflicts.",
-    tags: ["PHP", "MySQL", "JavaScript"],
-    href: "https://www.kevin-morales.com/pages/meetingroom.html",
+    tags: ["PHP", "Laravel", "Vue.js", "MySQL", "Tailwind CSS"],
   },
   {
-    title: "Labor and Management Committee",
+    title: "Labor and Management Committee - Fujitsu",
     short: "LMC",
+    description: "Portal built for the Labor and Management Committee.",
+    tags: ["PHP", "Laravel", "Vue.js", "MySQL", "Tailwind CSS"],
+  },
+  {
+    title: "Menshin export control system - HRD Singapore",
+    short: "MECS",
     description:
-      "Portal built for the Labor and Management Committee, published on GitHub Pages.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    href: "https://kev1118.github.io/lmc.github.io/",
+      "Factory System for data processing andmanaging part of menshin structure for export purposes.",
+    tags: ["Magic XPA", "Crystal Reports", "MS SQL Server"],
   },
 ];
 
 export const certifications = [
+  {
+    title: "Power BI",
+    issuer: "KMC / Amkor",
+    date: "October 2026",
+  },
+  {
+    title: "Python",
+    issuer: "KMC / Amkor",
+    date: "June 2026",
+  },
   {
     title: "AWS Cloud Practitioner Essentials",
     issuer: "Udemy",

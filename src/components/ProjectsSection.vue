@@ -9,7 +9,7 @@ import { projects } from '../data/portfolio'
       <span class="section-label">Projects</span>
       <h2 class="section-title">Featured systems</h2>
       <p class="mt-3 max-w-2xl text-slate-600 dark:text-slate-400">
-        A selection of in-house and internal systems I've designed and built.
+        A selection of in-house and internal systems I've designed and built. (Due to confidentiality agreements, projects are not publicly accessible.)
       </p>
     </div>
 
