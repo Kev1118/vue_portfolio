@@ -56,12 +56,16 @@ export const stats = [
 // Proficiency bars (carried over from the previous portfolio site)
 export const coreSkills = [
   { name: "PHP / Laravel", level: 80 },
-  { name: "MySQL", level: 76 },
+  { name: "Vue.js", level: 70 },
+  { name: "MySQL", level: 70 },
   { name: "PostgreSQL", level: 70 },
+  { name: "MS SQL Server", level: 70 },
   { name: "HTML / CSS / JavaScript", level: 65 },
-  { name: "Vue.js", level: 60 },
-  { name: "Server management", level: 60 },
+  { name: "Tailwind CSS", level: 60 },
+  { name: "Bootstrap", level: 60 },
+  { name: "Docker", level: 60 },
   { name: "React.js", level: 50 },
+  { name: "Python", level: 50 },
   { name: "AWS", level: 40 },
 ];
 
@@ -75,7 +79,7 @@ export const skillGroups = [
     title: "Frontend",
     icon: "layout",
     items: [
-      "Vue.js",
+      "Vue.js 2 & 3",
       "Nuxt.js",
       "React.js",
       "JavaScript",
@@ -106,7 +110,7 @@ export const skillGroups = [
   {
     title: "AI Tools",
     icon: "sparkles",
-    items: ["Cursor AI", "GitHub Copilot"],
+    items: ["Cursor AI", "GitHub Copilot", "ChatGPT", "Claude AI"],
   },
   {
     title: "Currently Learning",
