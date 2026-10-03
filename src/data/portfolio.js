@@ -19,8 +19,8 @@ export const profile = {
   email: "moralesk765@gmail.com",
   phone: "+63 966 538 8712",
   phoneHref: "+639665388712",
-  photo: "vue_portfolio/profile.jpg",
-  resume: "vue_portfolio/Kevin_Morales_Resume_ATS.docx",
+  photo: "profile.jpg",
+  resume: "Kevin_Morales_Resume_ATS.docx",
 };
 
 export const nav = [
